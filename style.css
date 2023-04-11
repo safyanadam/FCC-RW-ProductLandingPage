@@ -1,7 +1,62 @@
-html {border: 2px solid black;}
-
-h1 {font-family:Arial, Helvetica, sans-serif}
+h1 {font-family: sans-serif}
 
 body {
     background-color: rgba(48, 48, 50, 0.41);
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+
  }
+
+
+ #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+ }
+ #nav-bar {
+    height: px;
+    display: flex;
+    
+    
+    
+
+}
+#header-img {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-self: flex-start;
+    margin-right: auto;
+
+
+}
+.nav-link {
+    height: 60px
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    color:black;
+    border-radius: 20%;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#email, #submit {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
