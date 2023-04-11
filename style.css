@@ -18,19 +18,23 @@ body {
 
  }
  #nav-bar {
-    height: px;
+    height: 60px;
     display: flex;
+    width: 100%;
+    background-color: rgb(48, 48, 50); 
     
     
     
 
 }
 #header-img {
-    width: 150px;
-    height: 60px;
+    height: 40px;
+    width: auto;
     display: flex;
     align-self: flex-start;
+    align-content: space-around;
     margin-right: auto;
+    ;
 
 
 }
@@ -55,8 +59,29 @@ body {
 }
 
 #email, #submit {
-    width: 100px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    text-align:center;
+    padding: auto;
+}
+
+#submit {
+    cursor: pointer;
+
+}
+
+#features {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#video {
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
 }
